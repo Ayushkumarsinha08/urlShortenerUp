@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Signup</title>
+</head>
+<body>
+    <div>
+    <form method="post" action="http://localhost:3000/user">
+        <label>Create New User</label>
+        <input type="text" name="Username" placeholder="enter your name">
+        <input type="text" name="password" placeholder="enter password">
+        <input type="text" name="email" placeholder="enter your email">
+        <button type="submit">Signup</button>
+
+    </form></div>
+<p></p>
+    <div>
+        <form method="post" action="http://localhost:3000/login">
+        <label>User Login</label>
+        <input type="text" placeholder="Username or email" name="userId">
+        <input type="text" placeholder="password" name="password">
+        <button type="submit">login</button>
+    </form>
+</div>
+</body>
+</html>
